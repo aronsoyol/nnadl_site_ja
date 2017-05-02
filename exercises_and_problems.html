@@ -62,7 +62,9 @@ $('#toc_using_neural_nets_to_recognize_handwritten_digits_reveal').click(functio
      $("#toc_img_using_neural_nets_to_recognize_handwritten_digits").attr('src', 'images/arrow.png');
    };
    $('#toc_using_neural_nets_to_recognize_handwritten_digits').toggle('fast', function() {});
-});</script><p class='toc_mainchapter'><a id="toc_how_the_backpropagation_algorithm_works_reveal" class="toc_reveal" onMouseOver="this.style.borderBottom='1px solid #2A6EA6';" onMouseOut="this.style.borderBottom='0px';"><img id="toc_img_how_the_backpropagation_algorithm_works" src="images/arrow.png" width="15px"></a><a href="chap2.html">逆伝播の仕組み</a><div id="toc_how_the_backpropagation_algorithm_works" style="display: none;"><p class="toc_section"><ul><a href="chap2.html#warm_up_a_fast_matrix-based_approach_to_computing_the_output_from_a_neural_network"><li>Warm up: a fast matrix-based approach to computing the output  from a neural network</li></a><a href="chap2.html#the_two_assumptions_we_need_about_the_cost_function"><li>The two assumptions we need about the cost function</li></a><a href="chap2.html#the_hadamard_product_$s_\odot_t$"><li>The Hadamard product, $s \odot t$</li></a><a href="chap2.html#the_four_fundamental_equations_behind_backpropagation"><li>The four fundamental equations behind backpropagation</li></a><a href="chap2.html#proof_of_the_four_fundamental_equations_(optional)"><li>Proof of the four fundamental equations (optional)</li></a><a href="chap2.html#the_backpropagation_algorithm"><li>The backpropagation algorithm</li></a><a href="chap2.html#the_code_for_backpropagation"><li>The code for backpropagation</li></a><a href="chap2.html#in_what_sense_is_backpropagation_a_fast_algorithm"><li>In what sense is backpropagation a fast algorithm?</li></a><a href="chap2.html#backpropagation_the_big_picture"><li>Backpropagation: the big picture</li></a></ul></p></div>
+});</script><p class='toc_mainchapter'><a id="toc_how_the_backpropagation_algorithm_works_reveal" class="toc_reveal" onMouseOver="this.style.borderBottom='1px solid #2A6EA6';" onMouseOut="this.style.borderBottom='0px';"><img id="toc_img_how_the_backpropagation_algorithm_works" src="images/arrow.png" width="15px"></a><a href="chap2.html">逆伝播の仕組み</a><div id="toc_how_the_backpropagation_algorithm_works" style="display: none;"><p class="toc_section"><ul><a href="chap2.html#warm_up_a_fast_matrix-based_approach_to_computing_the_output
+_from_a_neural_network"><li>Warm up: a fast matrix-based approach to computing the output
+  from a neural network</li></a><a href="chap2.html#the_two_assumptions_we_need_about_the_cost_function"><li>The two assumptions we need about the cost function</li></a><a href="chap2.html#the_hadamard_product_$s_\odot_t$"><li>The Hadamard product, $s \odot t$</li></a><a href="chap2.html#the_four_fundamental_equations_behind_backpropagation"><li>The four fundamental equations behind backpropagation</li></a><a href="chap2.html#proof_of_the_four_fundamental_equations_(optional)"><li>Proof of the four fundamental equations (optional)</li></a><a href="chap2.html#the_backpropagation_algorithm"><li>The backpropagation algorithm</li></a><a href="chap2.html#the_code_for_backpropagation"><li>The code for backpropagation</li></a><a href="chap2.html#in_what_sense_is_backpropagation_a_fast_algorithm"><li>In what sense is backpropagation a fast algorithm?</li></a><a href="chap2.html#backpropagation_the_big_picture"><li>Backpropagation: the big picture</li></a></ul></p></div>
 <script>
 $('#toc_how_the_backpropagation_algorithm_works_reveal').click(function() {
    var src = $('#toc_img_how_the_backpropagation_algorithm_works').attr('src');
@@ -182,7 +184,33 @@ href="faq.html">FAQ</a>をごらんください。</p>
   著：<a href="http://michaelnielsen.org">Michael Nielsen</a> / 2014年9月-12月 <br >  訳：<a href="https://github.com/nnadl-ja/nnadl_site_ja">「ニューラルネットワークと深層学習」翻訳プロジェクト</a>
 </p>
 </div>
-</p><p>It's not uncommon for technical books to include an admonition fromthe author that readers must do the exercises and problems.  I alwaysfeel a little peculiar when I read such warnings.  Will something badhappen to me if I don't do the exercises and problems?  Of course not.I'll gain some time, but at the expense of depth of understanding.Sometimes that's worth it.  Sometimes it's not.</p><p>So what's worth doing in this book?  My advice is that you reallyshould attempt most of the exercises, and you should aim <em>not</em> todo most of the problems.</p><p>You should do most of the exercises because they're basic checks thatyou've understood the material.  If you can't solve an exerciserelatively easily, you've probably missed something fundamental.  Ofcourse, if you do get stuck on an occasional exercise, just move on- chances are it's just a small misunderstanding on your part, ormaybe I've worded something poorly.  But if most exercises are astruggle, then you probably need to reread some earlier material.</p><p>The problems are another matter.  They're more difficult than theexercises, and you'll likely struggle to solve some problems.  That'sannoying, but, of course, patience in the face of such frustration isthe only way to truly understand and internalize a subject.</p><p>With that said, I don't recommend working through all the problems.What's even better is to find your own project.  Maybe you want to useneural nets to classify your music collection.  Or to predict stockprices.  Or whatever.  But <em>find a project you care about</em>.  Thenyou can ignore the problems in the book, or use them simply asinspiration for work on your own project.  Struggling with a projectyou care about will teach you far more than working through any numberof set problems.  Emotional commitment is a key to achieving mastery.</p><p>Of course, you may not have such a project in mind, at least up front.That's fine.  Work through those problems you feel motivated to workon.  And use the material in the book to help you search for ideas forcreative personal projects.</p><p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p><p></p><p></p><p></p><p></div><div class="footer"> <span class="left_footer"> In academic work,
+</p><p>It's not uncommon for technical books to include an admonition from
+the author that readers must do the exercises and problems.  I always
+feel a little peculiar when I read such warnings.  Will something bad
+happen to me if I don't do the exercises and problems?  Of course not.
+I'll gain some time, but at the expense of depth of understanding.
+Sometimes that's worth it.  Sometimes it's not.</p><p>So what's worth doing in this book?  My advice is that you really
+should attempt most of the exercises, and you should aim <em>not</em> to
+do most of the problems.</p><p>You should do most of the exercises because they're basic checks that
+you've understood the material.  If you can't solve an exercise
+relatively easily, you've probably missed something fundamental.  Of
+course, if you do get stuck on an occasional exercise, just move on
+- chances are it's just a small misunderstanding on your part, or
+maybe I've worded something poorly.  But if most exercises are a
+struggle, then you probably need to reread some earlier material.</p><p>The problems are another matter.  They're more difficult than the
+exercises, and you'll likely struggle to solve some problems.  That's
+annoying, but, of course, patience in the face of such frustration is
+the only way to truly understand and internalize a subject.</p><p>With that said, I don't recommend working through all the problems.
+What's even better is to find your own project.  Maybe you want to use
+neural nets to classify your music collection.  Or to predict stock
+prices.  Or whatever.  But <em>find a project you care about</em>.  Then
+you can ignore the problems in the book, or use them simply as
+inspiration for work on your own project.  Struggling with a project
+you care about will teach you far more than working through any number
+of set problems.  Emotional commitment is a key to achieving mastery.</p><p>Of course, you may not have such a project in mind, at least up front.
+That's fine.  Work through those problems you feel motivated to work
+on.  And use the material in the book to help you search for ideas for
+creative personal projects.</p><p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p><p></p><p></p><p></p><p></div><div class="footer"> <span class="left_footer"> In academic work,
 please cite this book as: Michael A. Nielsen, "Neural Networks and
 Deep Learning", Determination Press, 2015
 
@@ -202,7 +230,7 @@ Last update: Sun Dec 21 14:49:05 2014
 <br/>
 <br/>
 <br/>
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_GB"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_GB"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a>
 </span>
 </div>
 <script>
